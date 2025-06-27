@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <!--Section 1 -->
+        <section id="section1" class="section">
+            <h2 title="Section '1'">Section 1</h2>
+            <p contenteditable="true" spellcheck="true">This paragraph demonstrates the use of the content editable attribute</p>
+        </section>
+
+        <!-- Section 2-->
+         <section id="section2" class="section">
+            <h2>Section 2</h2>
+         </section>
+
+         <!-- href attribute-->
+          <a href="www.platzi.com" target="_blank">Learn more</a>
+          
+          <br><br>
+
+          <!-- src & alt attibutes-->
+           <img src="https://placehold.co/150" alt="Sample Image">
+           <br><br>
+
+           <!-- type value, placeholder for inputs-->
+         <label for="username">
+            <span>Username</span>
+            <input type="text" id="username" 
+            placeholder="Enter your name"></label>
+           </label>
+           <br><br>
+           <!-- email input, for attribute-->
+            <label for="email">
+                <span>Email</span>
+                <input type="email" id="email" placeholder="Enter your email" autocomplete="false">
+            </label>
+            <br><br>
+            <!-- disabled attribute -->
+            <label>
+                <span>Disabled</span>
+                <input type="text" placeholder="This input is disabled" value="test-only" readonly>
+            </label>
+
+            <!-- check attribute-->
+            <label for="checkbox">
+                <span>Review</span>
+                <input type="checkbox" checked>
+            </label>
+
+            <!-- Select attribute-->
+             <select name="options" id="optionSelect">
+                <option value="Option1" selected>First</option>
+                <option value="Option2" >Second</option>
+                <option value="Option3" >
+                    Third
+                </option>
+             </select>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
